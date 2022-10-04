@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c19f2c08-e1c5-4cb0-a326-86d49726a0b6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson7/RegistrationFormWithTestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson7/pages/RegistrationFormPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson7/pages/components/CalendarComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson7/pages/components/TableResults.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson7/RegistrationFormRandomUtilsWithTestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson7/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson7/TestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson7/randomUtils/RandomUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson7/RegistrationFormWithTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson7/RegistrationFormWithTestData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +46,42 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/nick_kudryavtsev/Работа/Hard Skills/qa.guru - qutomation qa/8. qa.guru.full/qa.guru.fullCourse/src/test/resources"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.Tests in 'qa.guru.fullCourse.test'">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\nick_kudryavtsev\Работа\Hard Skills\qa.guru - qutomation qa\8. qa.guru.full\qa.guru.fullCourse\src\test\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lesson7" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.RegistrationFormRandomUtilsWithTestData.checkPractiseForm">
+    <configuration name="RegistrationFormRandomUtilsWithTestData.checkPractiseForm" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;lesson7.RegistrationFormRandomUtilsWithTestData.checkPractiseForm&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="RegistrationFormWithTestData" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -95,6 +128,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RegistrationFormRandomUtilsWithTestData.checkPractiseForm" />
         <item itemvalue="Gradle.Tests in 'qa.guru.fullCourse.test'" />
         <item itemvalue="Gradle.RegistrationFormWithTestData" />
       </list>

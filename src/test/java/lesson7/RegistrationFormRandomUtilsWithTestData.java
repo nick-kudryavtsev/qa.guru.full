@@ -1,27 +1,43 @@
 package lesson7;
 
-import com.codeborne.selenide.Configuration;
+import com.github.javafaker.Faker;
 import lesson7.pages.RegistrationFormPage;
 import lesson7.pages.components.TableResults;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import static java.lang.Thread.sleep;
 import static lesson7.TestData.lastname;
 import static lesson7.TestData.username;
+import static lesson7.randomUtils.RandomUtils.*;
 
-public class RegistrationFormWithTestData extends TestBase {
+public class RegistrationFormRandomUtilsWithTestData extends TestBase {
+    Faker faker = new Faker();
+
     RegistrationFormPage homeWorkPage = new RegistrationFormPage();
     TableResults tableResults = new TableResults();
 
+    String username,
+            lastname,
+            email,
+            phone;
+
+    @BeforeEach
+    void preparedTestData(){
+        username = faker.name().firstName();
+        lastname = faker.name().lastName();
+        email = String.format("%s@ya.ru", faker.name().lastName());
+        phone = getRandomNumber(10);
+    }
+
     @Test
-    void checkPractiseForm(){
+    void checkPractiseForm() throws InterruptedException {
         homeWorkPage.openPage()
-                .setUsername("Nick")
-                .setLastname("Kudryavtsev")
-                .setUserEmail("nick@ya.ru")
+                .setUsername(username)
+                .setLastname(lastname)
+                .setUserEmail(email)
                 .setGender("Male")
-                .setPhone("8800555353")
+                .setPhone(phone)
                 .setBirthday("18", "July", "1997")
                 .setSubject("Math")
                 .setRadio()
@@ -34,13 +50,7 @@ public class RegistrationFormWithTestData extends TestBase {
         tableResults.isModalAppear()
                 .checkResults(username)
                 .checkResults(lastname)
-                .checkResults("nick@ya.ru")
-                .checkResults("8800555353");
+                .checkResults(email)
+                .checkResults(phone);
     }
-
-    //  String formattedString = String.format("%s %s", var1, var2); - где %s - переменная с типом String
-
-
-
-
 }

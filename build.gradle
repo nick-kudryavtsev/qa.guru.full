@@ -23,6 +23,7 @@ dependencies {
     // Selenide
     testImplementation 'com.codeborne:selenide:6.6.6'
     testImplementation 'org.slf4j:slf4j-simple:2.0.0'
+    testImplementation 'com.github.javafaker:javafaker:1.0.2'
 
     //  Junit
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
