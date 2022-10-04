@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c19f2c08-e1c5-4cb0-a326-86d49726a0b6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson7/RegistrationFormRandomUtilsWithTestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson7/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson7/TestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson7/randomUtils/RandomUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lesson7/RegistrationFormWithTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson7/RegistrationFormWithTestData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +17,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -42,14 +47,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/nick_kudryavtsev/Работа/Hard Skills/qa.guru - qutomation qa/8. qa.guru.full/qa.guru.fullCourse/src/test/resources"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/nick_kudryavtsev/Работа/Hard Skills/qa.guru - qutomation qa/8. qa.guru.full/qa.guru.fullCourse/src/test/resources&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\nick_kudryavtsev\Работа\Hard Skills\qa.guru - qutomation qa\8. qa.guru.full\qa.guru.fullCourse\src\test\resources" />
