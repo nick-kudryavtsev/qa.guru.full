@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'io.qameta.allure' version '2.10.0'
 }
 
 group 'org.example'
@@ -8,6 +9,20 @@ version '1.0-SNAPSHOT'
 java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+allure {
+    report {    //  секция репорта
+        version.set("2.19.0")
+    }
+    adapter {   //  allure-results folder
+        aspectjWeaver.set(true)     //  обработка аннотации @Step
+        frameworks {
+            junit5 {    //  framework name
+                adapterVersion.set("2.19.0")    //  fw version
+            }
+        }
     }
 }
 
@@ -25,7 +40,11 @@ dependencies {
             'com.codeborne:selenide:6.6.6',
             'org.slf4j:slf4j-simple:2.0.0',
             'com.github.javafaker:javafaker:1.0.2',
-            'com.codeborne:selenide-proxy:6.8.0'
+            'com.codeborne:selenide-proxy:6.8.0',
+            'io.qameta.allure:allure-selenide:2.19.0',
+            'org.aspectj:aspectjweaver:1.9.8'
+
+
     )
 
     //  Junit
